@@ -70,13 +70,11 @@ address {
 
 .nav {
   display: flex;
-  flex-grow: 1;
-  justify-content: space-between;
+  align-items: center;
 }
 
 .header-container {
   display: flex;
-  gap: 332px;
 }
 
 .header-logo {
@@ -98,6 +96,7 @@ address {
 
 .header-menu-list {
   display: flex;
+  gap: 40px;
 }
 
 .header-menu-link {
