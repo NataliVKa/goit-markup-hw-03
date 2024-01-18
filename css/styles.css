@@ -64,7 +64,7 @@ address {
 /**----------HEADER-----------*/
 
 .header {
-  padding-top: 24px;
+  padding-top: 25px;
   padding-bottom: 24px;
 }
 
@@ -96,6 +96,7 @@ address {
 
 .header-menu-list {
   display: flex;
+  padding-left: 76px;
   gap: 40px;
 }
 
@@ -132,6 +133,7 @@ address {
 
 .header-address-list {
   display: flex;
+  gap: 40px;
 }
 
 /**--------------------------*/
@@ -141,7 +143,7 @@ address {
 }
 
 .hero-container {
-  background: #2e2f42;
+  background-color: #2e2f42;
   padding: 188px 472px 292px 472px;
 }
 
@@ -152,8 +154,8 @@ address {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  max-width: 496px;
   margin-bottom: 48px;
+  max-width: 496px;
 }
 
 .hero-order-btn {
@@ -165,7 +167,7 @@ address {
   letter-spacing: 0.04em;
   cursor: pointer;
   background: #4d5ae5;
-  width: 169px;
+
   padding: 16px 32px;
 }
 
@@ -207,7 +209,6 @@ address {
 }
 
 .team-title {
-  max-width: 162px;
   margin: 0 auto;
   margin-bottom: 72px;
 }
@@ -241,7 +242,6 @@ address {
 }
 
 .portfolio-title {
-  max-width: 218px;
   margin: 0 auto;
   margin-bottom: 72px;
 }
