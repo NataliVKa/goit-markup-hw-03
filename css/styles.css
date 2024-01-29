@@ -61,7 +61,6 @@ img {
   padding: 0;
   white-space: nowrap;
   clip-path: inset(100%);
-  clip: rect(0 0 0 0);
   overflow: hidden;
 }
 
@@ -158,12 +157,12 @@ img {
 /**----------HERO------------*/
 
 .hero {
-}
-
-.hero-container {
   background-color: #2e2f42;
   padding-top: 188px;
   padding-bottom: 188px;
+}
+
+.hero-container {
 }
 
 .hero-title {
@@ -237,12 +236,12 @@ img {
 /**-------------TEAM-------------*/
 
 .team {
+  background-color: #f4f4fd;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .team-container {
-  background: #f4f4fd;
-  padding-top: 120px;
-  padding-bottom: 120px;
 }
 
 .team-title {
@@ -305,7 +304,6 @@ img {
   background-color: #fff;
   padding-top: 120px;
   padding-bottom: 120px;
-  border: 1px solid #e7e9fc;
 }
 
 .portfolio-title {
@@ -320,7 +318,6 @@ img {
 }
 
 .portfolio-item {
-  border: 1px solid #e7e9fc;
   background-color: #fff;
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
@@ -341,6 +338,7 @@ img {
   align-items: flex-start;
   gap: 8px;
   align-self: stretch;
+  border: 1px solid #e7e9fc;
 }
 
 .portfolio-subtitle {
